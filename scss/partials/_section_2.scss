@@ -1,0 +1,38 @@
+.options {
+    text-align: center;
+    li {
+        display: inline-block;
+        border: 2px solid #c8c6bd;
+        width: 310px;
+        /*350px*/
+        height: 200px;
+    }
+    .first-icon {
+        background-image: url('../photos/ul-one-photo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: 1.5em calc(50% - 20px);
+    }
+    .description {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .options .second-icon {
+        background-image: url('../photos/ul-two-photo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: 1.5em calc(50% - 20px);
+    }
+    .third-icon {
+        background-image: url('../photos/ul-three-photo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+        margin: 12px calc(50% - 20px);
+    }
+}

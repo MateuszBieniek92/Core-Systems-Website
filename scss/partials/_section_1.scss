@@ -1,0 +1,45 @@
+.section-one {
+    background-image: url(../photos/section-one-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-header {
+    margin: 4em 0 0 0;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+.main-photo {
+    background-image: url(../photos/%20bitmap-main-section.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 300px;
+    margin: 3em 0 0 0;
+    @media(min-width: 450px) {
+        height: 400px;
+        width: 700px;
+        margin: 3em 0 0 calc(50% - 26em);
+    }
+}
+
+.button {
+    float: right;
+}
+
+.down-arrows {
+    i {
+        margin: 0 calc(50% - 20px);
+        color: white;
+        text-align: center;
+    }
+}
+
+.scroll {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
