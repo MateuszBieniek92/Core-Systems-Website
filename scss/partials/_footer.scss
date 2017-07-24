@@ -1,0 +1,18 @@
+footer {
+    ul {
+        list-style-type: none;
+        display: inline-block;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin-top: 1em;
+            font-size: 15px;
+            font-weight: bold;
+            margin-right: 1em;
+            color: #c1c1b2;
+        }
+        :last-child{
+            color: black;
+        }
+    }
+}

@@ -1,38 +1,61 @@
 .options {
     text-align: center;
+    margin-top: 4em;
     li {
         display: inline-block;
-        border: 2px solid #c8c6bd;
+        border: 3px solid #c8c6bd;
         width: 310px;
-        /*350px*/
         height: 200px;
+        margin-bottom: 2em;
+    }
+    .first-icon,
+    .second-icon,
+    .third-icon {
+        width: 60px;
+        height: 60px;
+        margin: 0.5em calc(50% - 25px);
     }
     .first-icon {
         background-image: url('../photos/ul-one-photo.png');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 1.5em calc(50% - 20px);
     }
-    .description {
-        font-size: 18px;
-        font-weight: 500;
-    }
-    .options .second-icon {
+    .second-icon {
         background-image: url('../photos/ul-two-photo.png');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 1.5em calc(50% - 20px);
     }
     .third-icon {
         background-image: url('../photos/ul-three-photo.png');
         background-size: cover;
         background-repeat: no-repeat;
-        width: 50px;
-        height: 50px;
-        margin: 12px calc(50% - 20px);
     }
+    .description {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.section-two-main-header {
+    font-size: 34px;
+    color: #1f1f1f;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-two-second-header {
+    margin-top: 0;
+    font-size: 34px;
+    color: rgb(191, 191, 178);
+    line-height: 1.1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-two-text {
+    font-size: 18px;
+    color: black;
+    line-height: 1.4;
+    text-align: center;
 }

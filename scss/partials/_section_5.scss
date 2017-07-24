@@ -1,0 +1,50 @@
+.section-five {
+    background: #f7f7f7;
+    .mac-photo {
+        background-image: url('../photos/section-five-mac-photo.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 180px;
+    }
+    .left-slider-arrow {
+        display: none;
+    }
+    .right-slider-arrow {
+        display: none;
+    }
+    .slider-circles {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin: -2em 0 2em 0;
+        li {
+            width: 15px;
+            height: 15px;
+            border-radius: 25px;
+            display: inline-block;
+            border: 3px solid #c2c2b5;
+            margin-right: 0.5em;
+        }
+         :first-child {
+            background: #c2c2b5;
+        }
+    }
+    .section-five-header {
+        margin: -1em 0 0 0;
+    }
+    .section-five-header {
+        font-size: 34px;
+        color: #1f1f1f;
+        line-height: 1.1;
+        text-align: center;
+        font-weight: bold;
+    }
+    .section-five-text {
+        margin: 1em 0 0 0;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Times New Roman', 'sans-serif';
+        font-weight: 500;
+    }
+}

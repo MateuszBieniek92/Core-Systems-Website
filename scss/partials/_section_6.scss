@@ -1,0 +1,35 @@
+.section-six {
+    .bordered-rectangle {
+        border: 3px solid #c2c2b5;
+            margin: 2em 0;
+        .bordered-text {
+            margin: 1em;
+            text-align: center;
+            font-size: 16px;
+            color: #c2c2b5;
+        }
+        .management-photo {
+            text-align: center;
+            list-style-type: none;
+            li {
+                ul {
+                    list-style-type: none;
+                    .manage-photo {
+                        background-image: url('../photos/photo-management.png');
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        width: 110px;
+                        height: 110px;
+                        display: inline-flex;
+                        justify-content: center;
+                        margin: 0em 0 2em 0;
+                    }
+                    li {
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}

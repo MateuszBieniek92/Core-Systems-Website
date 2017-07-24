@@ -1,0 +1,25 @@
+.section-three {
+    background: #f7f7f7;
+    .section-three-header,
+    h2 {
+        font-size: 34px;
+        color: #1f1f1f;
+        line-height: 1.1;
+        text-align: left;
+        font-weight: bold;
+    }
+    .section-three-text {
+        margin: 1em 0 0 0;
+        text-align: left;
+        font-size: 14px;
+        font-family: 'Times New Roman', 'sans-serif';
+        font-weight: 500;
+    }
+    .right-mac-ipad-photo {
+        background-image: url('../photos/mac-and-ipad-photo.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+    }
+}

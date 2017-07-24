@@ -8,12 +8,12 @@ header {
     font-weight: bold;
     font-size: 70px;
     letter-spacing: -3px;
-    @media(min-width: 450px) {
+    @media(min-width: 768px) {
         text-align: center;
     }
     span {
         display: none;
-        @media(min-width: 450px) {
+        @media(min-width: 768px) {
             vertical-align: super;
             font-size: 9px;
         }
@@ -29,7 +29,7 @@ header {
 .login-btn,
 .request-btn {
     display: none;
-    @media(min-width: 450px) {
+    @media(min-width: 768px) {
         display: inline-block;
         height: 2.5em;
         border: 2px solid black;
@@ -67,7 +67,7 @@ nav {
     }
     p {
         display: none;
-        @media(min-width: 450px) {
+        @media(min-width: 768px) {
             display: block;
             margin: -70px 60px;
             font-weight: 600;
@@ -76,7 +76,7 @@ nav {
     }
     .left-panel {
         display: none;
-        @media(min-width: 450px) {
+        @media(min-width: 768px) {
             display: inline-block;
             list-style-type: none;
             font-weight: 500;
@@ -89,6 +89,7 @@ nav {
         }
         li:hover {
             list-style-type: disc;
+            color: red;
         }
     }
 }

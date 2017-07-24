@@ -1,0 +1,29 @@
+.section-four {
+    background: #ffffff;
+    .left-ipad-photo {
+        margin: 1em 0 0 0;
+        background-image: url('../photos/section-four-ipad.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 300px;
+    }
+    .section-four-header {
+        margin: -1em 0 0 0;
+    }
+    .section-four-header,
+    h2 {
+        font-size: 34px;
+        color: #1f1f1f;
+        line-height: 1.1;
+        text-align: left;
+        font-weight: bold;
+    }
+    .section-four-text {
+        margin: 1em 0 0 0;
+        text-align: left;
+        font-size: 15px;
+        font-family: 'Times New Roman', 'sans-serif';
+        font-weight: 500;
+    }
+}
