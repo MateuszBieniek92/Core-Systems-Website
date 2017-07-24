@@ -1,12 +1,20 @@
 .section-six {
     .bordered-rectangle {
         border: 3px solid #c2c2b5;
-            margin: 2em 0;
+        margin: 2em 0;
+        @media(min-width: 1000px) {
+            margin: 5em 14em;
+        }
         .bordered-text {
             margin: 1em;
             text-align: center;
             font-size: 16px;
             color: #c2c2b5;
+            @media(min-width: 1000px) {
+                margin: 2em 2em 1em 2em;
+                text-align: center;
+                font-size: 18px;
+            }
         }
         .management-photo {
             text-align: center;

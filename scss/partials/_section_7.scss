@@ -8,12 +8,27 @@
         text-align: center;
         font-weight: bold;
     }
+    .section-seven-main-header {
+        @media(min-width: 768px) {
+            margin-top: 1.5em;
+        }
+    }
     .section-seven-second-header {
         color: #ffffff;
+        @media(min-width: 768px) {
+            margin:0;
+        }
     }
     ul {
         list-style-type: none;
         text-align: center;
+        .first-column,
+        .second-column {
+            @media(min-width: 768px) {
+                display: inline-block;
+                margin: 2em 4em 0em 2em;
+            }
+        }
         .s-seven-icon-one {
             background-image: url('../photos/section-six-icon-one.png');
             background-size: contain;
@@ -48,8 +63,8 @@
                 font-weight: bold;
             }
             button:hover {
-                transform: scale(1.2,1.2);
-                 color: #6ebee3;
+                transform: scale(1.2, 1.2);
+                color: #6ebee3;
                 transition: 500ms;
             }
         }

@@ -1,7 +1,7 @@
 footer {
     ul {
         list-style-type: none;
-        display: inline-block;
+        display: block;
         text-align: center;
         li {
             display: inline-block;
@@ -10,9 +10,25 @@ footer {
             font-weight: bold;
             margin-right: 1em;
             color: #c1c1b2;
+            @media(min-width: 768px) {
+                margin: 2em 1em 2em 0;
+                float: left;
+            }
         }
-        :last-child{
+        li:hover {
+            cursor: pointer;
+            transition: 300ms;
+            color: #70bfe3;
+        }
+         :last-child {
             color: black;
+            @media(min-width: 768px) {
+                float: right;
+            }
+        }
+         :last-child:hover {
+            color: black;
+             cursor: default;
         }
     }
 }
