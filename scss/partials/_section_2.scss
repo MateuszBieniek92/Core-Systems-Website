@@ -2,11 +2,15 @@
     text-align: center;
     margin-top: 4em;
     li {
+        margin-left: -1.8em;
         display: inline-block;
         border: 3px solid #c8c6bd;
         width: 310px;
         height: 200px;
         margin-bottom: 2em;
+        @media(min-width: 350px) {
+            margin-left: 0;
+        }
         @media(min-width: 768px) {
             margin-right: 1em;
             margin-bottom: 4em;
